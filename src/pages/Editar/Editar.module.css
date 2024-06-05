@@ -1,0 +1,173 @@
+.main{
+    color:rgb(255, 255, 255);
+    position: relative;
+}
+
+.menuEditar{
+    background-color:rgb(107, 107, 107);
+    /* height:500px; */
+    width: 800px;
+    margin: 100px auto 100px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    position:relative;
+}
+
+.menuTextos{
+    color:rgb(194, 194, 194);
+    margin-left: 10px;
+}
+
+.menuEditarTitulo{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuEditarTitulo2{
+    font-size:1.2rem;
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.numeroTitulo{
+    background-color:rgb(88, 88, 88);
+    border-radius: 50%;
+    width: 45px;
+    height:45px;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.divBotoes{
+    width: 100%;
+    display: flex;
+    gap:10px;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.menuEditarBotao{
+    background-color:rgb(131,131,131);
+    color:white;
+    border-style: none;
+    border-radius: 7px;
+    padding:10px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.menuEditarBotaoDesativado{
+    /* background-color:rgb(117, 117, 117); */
+    color:white;
+    filter:brightness(.65);
+    border-style: none;
+    border-radius: 7px;
+    padding:10px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    cursor: not-allowed;
+}
+
+.menuEditarBotao:hover{
+    background-color:rgb(156, 156, 156);
+    cursor:pointer;
+}
+
+.menuEditarBotao:active{
+    background-color:rgb(131, 131, 131);
+}
+
+.menuModificar{
+    background-color:rgb(107, 107, 107);
+    min-height:300px;
+    width: 800px;
+    margin: 100px auto 100px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+}
+
+.tituloMenu{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.caixaTexto{
+    background-color:rgb(131, 131, 131);
+    border-radius: 10px;
+    border-style:none;
+    height: 50px;
+    width: 100%;
+    padding-left:20px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color:white;
+}
+
+.voltar{
+    background-color:rgb(107, 107, 107);
+    border-radius: 50%;
+    border-style: none;
+    height:60px;
+    width: 60px;
+    cursor:pointer;
+    position:sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:50px;
+    left:20px;
+    box-sizing: border-box;
+}
+
+.voltar:hover{
+    background-color:rgb(156, 156, 156);
+}
+
+.voltar:active{
+    background-color:rgb(131, 131, 131);
+}
+
+.iconeSubst, .iconeAdd, .iconeDel{
+    height:30px;
+    width: 30px;
+    margin: 0 10px;
+    background-size:cover;
+}
+
+.iconeSubst{
+    background-image: url(../../assets/icons/shuffle.png);
+}
+
+.iconeAdd{
+    background-image: url(../../assets/icons/plus.png);
+}
+
+.iconeDel{
+    background-image: url(../../assets/icons/delete.png);
+}
+
+.iconeVolt{
+    background-image:url(../../assets/icons/left-arrow.png);
+    background-size:cover;
+    height:30px;
+    width: 30px;
+    margin-right:4px;
+    filter:invert();
+}
+
+::placeholder{
+    color:rgb(201, 201, 201);
+}

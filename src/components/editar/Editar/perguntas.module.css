@@ -1,0 +1,52 @@
+.perguntas{
+  background-color:rgb(121, 121, 121);
+  color:white;
+  border-style: none;
+  border-radius: 7px;
+  padding:10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.perguntas:hover{
+  background-color:rgb(156, 156, 156);
+  cursor:pointer;
+}
+
+.perguntas:active{
+  background-color:rgb(131, 131, 131);
+}
+
+.perguntas:focus{
+  background-color: #196b25;
+}
+
+.perguntas:focus:active{
+  background-color:#1a7928;
+}
+
+.numero{
+  display: flex;
+  background-color:rgb(107, 107, 107);
+  border-radius: 50%;
+  width: 100%;
+  height: 25px;
+  max-height:25px;
+  max-width: 25px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 5px;
+  text-align: center;
+}
+
+.enunciado{
+  font-weight: 600;
+}
